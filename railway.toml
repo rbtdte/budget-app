@@ -1,7 +1,0 @@
-cat > railway.toml << 'EOF'
-[build]
-builder = "NIXPACKS"
-
-[deploy]
-restartPolicyType = "on_failure"
-EOF
