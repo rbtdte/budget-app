@@ -144,3 +144,4 @@ Database lost after redeploy
 
 iPhone not fullscreen
 → Must use Safari, not Chrome. Tap Share → Add to Home Screen.
+# budget-app
