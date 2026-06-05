@@ -1,10 +1,7 @@
+cat > railway.toml << 'EOF'
 [build]
-builder = "DOCKERFILE"
-dockerfilePath = "Dockerfile"
+builder = "NIXPACKS"
 
 [deploy]
 restartPolicyType = "on_failure"
-restartPolicyMaxRetries = 3
-
-[[volumes]]
-mountPath = "/data"
+EOF
